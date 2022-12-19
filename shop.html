@@ -5,7 +5,7 @@
         <title> Gangura | E-commerce</title>
         <link rel = "stylesheet" href="new.css">
         <script src="https://kit.fontawesome.com/48359f1a8a.js" crossorigin="anonymous"></script>
-        <script src="new.js"></script>
+      <!----- <script src="new.js"></script>---->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
     </head>
     <body>
@@ -229,7 +229,29 @@
                 <p class = "copyright">Copyright 2022 - Gangura LTD</p>
             </div>
         </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
 
+MenuItems.style.height = "0px";
+
+
+function menutoggle() {
+
+
+   
+   if ( MenuItems.style.height == "0px") {
+
+   MenuItems.style.height = "200px";
+
+   }
+   else {
+       MenuItems.style.height = "0px";
+
+   }
+
+}
+      </script>
+            
     </body>
 </html>
 
